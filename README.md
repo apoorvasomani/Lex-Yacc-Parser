@@ -11,4 +11,4 @@ To run this program:
 - cc lex.yy.c y.tab.c -o parser.exe -pthread
 
 
-Keep the number of threads to be created high for concurrency to be visible. For example, for 20 expressions, I will need 7 - 9 threads.
+Keep the number of threads to be created high for concurrency to be visible. For example, 20 expressions will need 7 - 9 threads.
